@@ -1,0 +1,7 @@
+n=int(input())
+f=list(map(int,input().split()))
+k=[]
+for i in range(n):
+    for j in range(n):
+        k.append(f[i]%f[j])
+print(max(k),end='')
